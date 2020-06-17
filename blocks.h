@@ -6,7 +6,7 @@ static const Block blocks[] = {
     { "\x08 ♥♥ Love my Anka ♥♥             ", "",   0, 0 },
     { "\x07♫ ", "cat ~/scripts/variables/volume",   0, 10 },
     { "\x05", "free -h | awk '/^Mem/ { print \"RAM=\" $3 }' | sed s/i//g", 30, 0},
-    { "\x06", "~/.get_battery.zsh", 10, 0},
+    { "\x06", "~/scripts/get_battery.zsh", 10, 0},
 
     // {"", "~/bin/statusbar/volume",						0,		10},
 
